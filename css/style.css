@@ -74,15 +74,19 @@ body {
 }
 
 /*------------------------------------*\
-  #user-list
+  #list
 \*------------------------------------*/
 
-.user-list {
+.list {
     margin: 0;
     padding: 0;
 
     list-style: none;
 }
+
+/*------------------------------------*\
+  #user-list
+\*------------------------------------*/
 
 .user-list__item:not(:first-child) {
     margin-top: 5px;
@@ -94,11 +98,55 @@ body {
 }
 
 /*------------------------------------*\
+  #second-title
+\*------------------------------------*/
+
+.second-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+/*------------------------------------*\
+  #features-list
+\*------------------------------------*/
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    width: 1520px;
+    margin: 0 auto;
+}
+
+.features-list__item {
+    width: 300px;
+    padding-top: 280px;
+
+    text-align: center;
+    background-image: url("../img/feauters-list-icons.png");
+    background-repeat: no-repeat;
+}
+
+.features-list__item--bg-clock {
+    background-position: left -6% top;
+}
+
+.features-list__item--bg-phone {
+    background-position: left 52% top;
+}
+
+.features-list__item--bg-access {
+    background-position: right -6% top;
+}
+
+/*------------------------------------*\
   #page-header
 \*------------------------------------*/
 
 .page-header {
-    min-height: 1335px;
+    min-height: 1255px;
     padding: 75px 250px 0;
 
     background: no-repeat url("../img/bg-header.png");
@@ -174,4 +222,39 @@ body {
 
     border-radius: 50px;
     text-decoration: none;
+}
+
+/*------------------------------------*\
+  #advantages
+\*------------------------------------*/
+
+.advantages__header {
+    box-sizing: border-box;
+    width: 928px;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-bottom: 125px;
+}
+
+.advantages__title {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.advantages__text {
+    margin: 0;
+    padding: 0 140px;
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
+/*------------------------------------*\
+  #whats-on-list
+\*------------------------------------*/
+
+.whats-on-list {
+    width: 717px;
+    margin-left: 706px;
 }
