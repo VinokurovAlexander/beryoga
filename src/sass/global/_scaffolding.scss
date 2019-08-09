@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Fivo Sans';
+    src: local('Fivo Sans Regular'), local('FivoSans-Regular'), url('Fivosansregular.woff2') format('woff2'), url('Fivosansregular.woff') format('woff'), url('Fivosansregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fivo Sans';
+    src: local('Fivo Sans Bold'), local('FivoSans-Bold'), url('Fivosansbold.woff2') format('woff2'), url('Fivosansbold.woff') format('woff'), url('Fivosansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fivo Sans';
+    src: local('Fivo Sans Heavy'), local('FivoSans-Heavy'), url('Fivosansheavy.woff2') format('woff2'), url('Fivosansheavy.woff') format('woff'), url('Fivosansheavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    width: 1920px;
+    margin: 0 auto;
+
+
+    font-family: "FivoSans", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #fbfcfc;
+}

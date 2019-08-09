@@ -1,0 +1,29 @@
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    width: 1520px;
+    margin: 0 auto;
+
+    background-color: green;
+}
+
+.features-list__item {
+    width: 300px;
+    padding-top: 280px;
+
+    text-align: center;
+    background-image: url("../img/feauters-list-icons.png");
+    background-repeat: no-repeat;
+}
+
+.features-list__item--bg-clock {
+    background-position: left -6% top;
+}
+
+.features-list__item--bg-phone {
+    background-position: left 52% top;
+}
+
+.features-list__item--bg-access {
+    background-position: right -6% top;
+}

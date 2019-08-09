@@ -1,0 +1,19 @@
+.btn {
+    box-sizing: border-box;
+    max-width: 240px;
+    padding: 30px 25px;
+
+    background-color: #ff6a6d;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ff6a6d;
+    border-radius: 20px;
+}
+
+.btn-transparent {
+    color: #f82a56;
+    background-color: transparent;
+}

@@ -1,0 +1,22 @@
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav__logo {
+    margin-right: 535px;
+}
+
+.main-nav__site-list {
+    margin-right: 119px;
+    padding-top: 10px;
+}
+
+.main-nav__user-list {
+    padding-top: 9px;
+}
+
+.main-nav__link--current  {
+    font-weight: bold;
+    color: #ff6a6d;
+}

@@ -1,0 +1,8 @@
+.user-list__item:not(:first-child) {
+    margin-top: 5px;
+}
+
+.user-list__login-btn {
+    padding: 7px 43px;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.promo {
+    width: 545px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.promo__slogan {
+    display: block;
+    margin-bottom: 45px;
+
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #3b3838;
+}
+
+.promo__text {
+    margin: 0;
+    padding-right: 50px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.promo__text--last {
+    margin-bottom: 60px;
+}
+
+.promo__link-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promo__link {
+    padding: 20px 84px;
+    margin-right: 26px;
+    margin-bottom: 5px;
+
+    border-radius: 50px;
+    text-decoration: none;
+}
