@@ -1,19 +1,31 @@
 .btn {
-    box-sizing: border-box;
-    max-width: 240px;
-    padding: 30px 25px;
+  box-sizing: border-box;
+  max-width: 240px;
+  padding: 30px 25px;
 
-    background-color: #ff6a6d;
-    font-size: 20px;
-    line-height: 40px;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: center;
-    border: 2px solid #ff6a6d;
-    border-radius: 20px;
+  background-color: #ff6a6d;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  border: 2px solid #ff6a6d;
+  border-radius: 20px;
+
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.btn-transparent {
-    color: #f82a56;
-    background-color: transparent;
+.btn:hover {
+  background-color: transparent;
+  color: $color-main;
+}
+
+.btn--transparent {
+  background-color: transparent;
+  color: #f82a56;
+}
+
+.btn--transparent:hover {
+  background-color: $color-main;
+  color: #ffffff;
 }

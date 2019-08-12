@@ -1,4 +1,12 @@
 .whats-on-list {
-    width: 717px;
-    margin-left: 706px;
+  box-sizing: border-box;
+  width: 1313px;
+  margin-left: 240px;
+  padding-left: 745px;
+
+  background: no-repeat left top url("../img/bg-whats-on.png");
+}
+
+.whats-on-list__item {
+  padding-left: 70px;
 }
