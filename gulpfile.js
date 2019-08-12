@@ -26,10 +26,12 @@ gulp.task("del-build", function() {
 
 gulp.task("server", function() {
     server.init ({
-        server: "build/"
+        server: "build/",
+        ui: false,
+        notify: false
     });
 
-    gulp.watch("src/saas/**/*.{scss,sass}", gulp.series("css"));
+    gulp.watch("src/sass/**/*.{scss,sass}", gulp.series("css", "refresh"));
     gulp.watch("src/*.html", gulp.series("html", "refresh"));
 });
 
